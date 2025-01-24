@@ -1,0 +1,1 @@
+export const ids = (limit) => Math.floor(Math.random() * limit ) + 1

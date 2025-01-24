@@ -1,0 +1,36 @@
+.residents{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    width: 150px;
+    gap: 1rem;
+    margin:5rem ;
+
+}
+.resident_card{
+    display: flex;
+    place-content: center;  
+    width: 250px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(12, 60, 44);
+    background-color:  rgb(25, 120, 88);
+    padding: 10px;
+}
+.resident_card:hover{
+    box-shadow: 5px 5px 5px rgb(76, 222, 93);
+    cursor: pointer;
+}
+.residents:hover{
+    transform: translateY(12px);
+}
+.resident_status{
+    color: aliceblue;
+}
+.resident_name{
+    color: aliceblue;
+    text-decoration: dotted;
+    background-color:rgba(13, 58, 43, 0.55) ;
+}
+.resident_items{
+    color: rgb(1, 46, 1);
+}

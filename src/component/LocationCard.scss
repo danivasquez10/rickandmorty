@@ -1,0 +1,27 @@
+.location{
+    position: relative;
+    background-color: rgb(25, 120, 88);
+    width: 500px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgb(12, 60, 44);
+}
+.location_all{
+    display: flex;
+    place-content: center;  
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+.location_name{
+    color: greenyellow;
+}
+span{
+    color: rgb(12, 60, 44);
+}
+li{
+    color: aliceblue;
+}
